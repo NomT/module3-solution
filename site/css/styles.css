@@ -72,7 +72,6 @@ body {
 #nav-list a:hover {
   background:#778899
 }
-
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
@@ -91,7 +90,6 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
-
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
