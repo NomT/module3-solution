@@ -13,7 +13,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
- .navbar-brand a:hover, .navbar-brand a:focus {
+ .navbar-brand a:hover, .navbar-brand a:focus { /* Hovering on the Resturant Name */
   text-decoration: none;
 }
 .navbar-brand h1 { /* H1 Restaurant Name */
