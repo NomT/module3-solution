@@ -13,7 +13,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.navbar-brand h1 { /* Restaurant Name */
+.navbar-brand h1 { /* H1 Restaurant Name */
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   font-size: 1.25em;
@@ -25,23 +25,14 @@ body {
   margin-bottom: 0;
   line-height: .50;
 }
-/********** H1 - Resurant Name **********/
-h1 {
-  margin: 40px 10px 40px 0;
-  padding-bottom: 10px;
-  text-align: center;  
-  font-size: 1.8em;
-}
-/********** H2 - Our Menu **********/
-h2 {
+.container h2{ /* H2 Our Menu*/
   margin: 10px 5px 10px 0;
   text-align: center;   
   font-weight: bold; 
   font-size: 1.5em;
-  padding-bottom: 10px;
+  padding-bottom: 10px;	
 }
-/********** H3 - Menu Items **********/
-h3 {
+.container h3{ /* H3 Menu Items */
   margin: 0 5px 5px 0;
   text-align: center;   
   font-weight: bold; 
@@ -63,57 +54,24 @@ h3 {
   clear: both;
   margin-top: -60px;
 }
-.navbar-brand p { /* Kosher cert */
+.navbar-brand p { 
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-/*.navbar-brand p span { /* Star-K 
-  vertical-align: middle;
-}*/
-
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #nav-list a {
   color: #000000;
   text-align: center;
+  background-color: #D3D3D3;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background:#778899
 }
-/*#nav-list a span {
-  font-size: 1.8em;
-}*/
-/********** Large devices only *********
-@media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
-  }
-}*/
-
-/********** Medium devices only *********
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Home Page 
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
-  }
-  /* End Home Page 
-}*/
-
-/********** Small devices only *********
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page 
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
-  /* End Home Page 
-
-}*/
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
